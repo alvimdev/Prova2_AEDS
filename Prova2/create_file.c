@@ -4,20 +4,20 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "listas.h"
+#include <stdlib.h>
 #include "pilhas.h"
 #include "fila.h"
 
 void stack_create(){
-
+    Pilha_vet* stack = pilha_vet_cria();
 }
 
 void queue_create(){
-
+    Fila* queue = fila_cria_vet();
 }
 
 void priority_q_create(){
-
+    
 }
 
 int main(int argc, char **argv){
