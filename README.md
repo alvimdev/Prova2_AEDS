@@ -1,3 +1,7 @@
-# Prova2_AEDS
+# Prova 2 de AEDS
 
-Trabalho feito por Bernardo Aouza Alvim(2021951426) e Kaio Fernandes(2021951280) da turma 203 de 2022
+Trabalho feito por 
+BERNARDO SOUZA ALVIM (2021951426) e 
+KAIO FERREIRA NUNES FERNANDES (2021951280) 
+Da turma 203 de 2022
+:)
