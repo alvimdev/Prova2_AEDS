@@ -8,24 +8,30 @@
 
 int main(int agrc, char** agrv){
     //Variaveis
-    int qtd_op, op, elem, ct;
+    int * e_entrada;
+    int * e_saida;
+    int qtd_op, op, ct, n_lines=1;
     //Arquivo(s)
     FILE * arq;
     //Caminho(s)
-    char * path = "./arquivo.bin";
+    char * path = "./entrada.txt";
 
-    scanf("%d", &qtd_op);
-    ct = 1;
-    for (int i = 0; i < qtd_op; i++)
-    {
-        scanf("%d%d", &op, &elem);
-        if(op == 1){
-            arq = fopen(path, "w");
-            if(arq != NULL){
-                fwrite(elem, sizeof(int), ct, arq);
+    arq = fopen(path, "r");
+    if(arq != NULL){
+        while (!EOF)
+        {
+            fscanf(arq, "%d",  &qtd_op);
+
+            malloc();//e_entrada
+            malloc();//e_saida
+
+            for (int i = 0; i < qtd_op; i++)
+            {
+                // code
             }
-            ct++;
+            n_lines = qtd_op;
         }
     }
+
     return EXIT_SUCCESS;
 }
