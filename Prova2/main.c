@@ -45,7 +45,7 @@ int queue_(int* e_in, int* e_out, int qtd_e, int qtd_s){
 }
 
 int stack_(int* e_in, int* e_out, int qtd_e, int qtd_s){
-	int aux, j = qtd_s-1;
+	int j = qtd_s-1;
 	int buffer[qtd_s];
 	
 	for(int i = 0; i < qtd_s; i++){
